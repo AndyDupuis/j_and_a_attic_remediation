@@ -10,20 +10,17 @@ body {
     color: #152951;
   }
 
-.section {
+#business {
     height:80vh;
     width: 100vw;
     padding: 25px;
     margin: 20px;
 }
 
-.section h2 {
-
+.section {
+    padding: 25px;
+    margin: 20px;
 }
-
-  .section p {
-
-  }
 
 .section_content {
     
