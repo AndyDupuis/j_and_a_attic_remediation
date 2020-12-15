@@ -1,8 +1,9 @@
 
 /* Setting fonts, text color and section size for main body sections of the webpage*/
 
-body {
+html, body {
     font-family: 'Libre Franklin', sans-serif;
+    height: 100%;
 }
 
 .logo {
@@ -29,6 +30,16 @@ body {
 }
 
 
+.float-child {
+    width: 50%;
+    height: 100%;
+    float: left;
+    padding: 40px;
+
+}
+
+
+
 /* Jumbotron specific formatting */
   
 .jumbotron {
@@ -47,6 +58,10 @@ body {
 }
 
 .jumbotron .logo {
+    font-size: 250%;
+}
+
+#location .logo {
     font-size: 250%;
 }
 
@@ -122,6 +137,22 @@ body {
     margin: auto;
 }
 
+
+/* ------------------------------------------------------------------------------------------ */
+
+
+/* Contact Page */
+
+#location {
+    background: linear-gradient(white, transparent), url("pics/location.jpg") no-repeat center;  
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+#contact_form {
+    background-color: #152951;
+    color: white; 
+}
 
 
 
