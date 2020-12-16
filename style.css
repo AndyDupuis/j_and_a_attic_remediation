@@ -24,7 +24,6 @@ html, body {
 }
 
 .section_content {
-    
     font-family: 'PT Sans Narrow', sans-serif;
     font-size: 110%;
 }
@@ -149,9 +148,21 @@ html, body {
     background-size: 100%;
 }
 
+#location p {
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-size: 120%;
+    color: #152951;
+}
+
 #contact_form {
     background-color: #152951;
     color: white; 
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-size: 120%;
+}
+
+#top-icon {
+    padding-top: 15px;
 }
 
 
