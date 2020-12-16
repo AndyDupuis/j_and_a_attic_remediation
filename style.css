@@ -4,6 +4,10 @@
 html, body {
     font-family: 'Libre Franklin', sans-serif;
     height: 100%;
+	margin: 0;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
 }
 
 .logo {
@@ -24,19 +28,11 @@ html, body {
 }
 
 .section_content {
-    
     font-family: 'PT Sans Narrow', sans-serif;
     font-size: 110%;
 }
 
 
-.float-child {
-    width: 50%;
-    height: 100%;
-    float: left;
-    padding: 40px;
-
-}
 
 
 
@@ -61,9 +57,7 @@ html, body {
     font-size: 250%;
 }
 
-#location .logo {
-    font-size: 250%;
-}
+
 
 /* ------------------------------------------------------------------------------------------ */
 
@@ -144,18 +138,63 @@ html, body {
 /* Contact Page */
 
 #location {
-    background: linear-gradient(white, transparent), url("pics/location.jpg") no-repeat center;  
-    background-repeat: no-repeat;
-    background-size: 100%;
-}
-
-#contact_form {
+    position: absolute;
     background-color: #152951;
     color: white; 
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-size: 120%;
+    width: 30%;
+    height: 35%;
+    margin-left: 20%;
+    margin-top: 15%;
+    text-align: center;
+    padding: 60px;
+    border-radius: 5px;
 }
 
 
 
+#contact_form {
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-size: 120%;
+    color: #152951;
+    background-color: white;
+    box-shadow: 0px 0px 10px;
+    width: 50%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-right: 5%;
+    float: right;
+    padding: 60px;
+    padding-left: 100px;
+    border-radius: 5px;
+}
+
+#contact_form .logo {
+    font-size: 170%
+}
+
+#contact_form .input {
+    margin: 10px;
+    border: none;
+    border-bottom: 1px solid #152951;
+    outline: none;
+}
+
+#contact_form textarea {
+    min-height: 120px;
+}
+
+#contact_form .button {
+        background-color: #152951;
+        border-color: #152951;
+}
+
+#contact_form .button:hover {
+    background-color: #00e6e6;
+    border-color: #00e6e6;
+    color: #152951;
+}
 
 
 
