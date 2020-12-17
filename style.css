@@ -39,7 +39,7 @@ html, body {
 /* Jumbotron specific formatting */
   
 .jumbotron {
-    background: url("pics/tear-out_1.jpg") no-repeat center center;
+    background: url("pics/tools.jpg") no-repeat center center;
     background-size: cover;
     min-height: 700px;
     font-weight: bold;
@@ -195,6 +195,21 @@ html, body {
     background-color: #00e6e6;
     border-color: #00e6e6;
     color: #152951;
+}
+
+.contact_form .link {
+    color: #152951;
+}
+
+.contact_form a:hover {
+    color: #00e6e6;
+    text-decoration: none;
+}
+
+
+.help_center_title {
+    font-weight: bold;
+    font-size: 150%;
 }
 
 
