@@ -12,9 +12,9 @@
     <link href="https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
 </head>
-<body style="background: linear-gradient(white, transparent), url('pics/location2.jpg'); background-repeat: no-repeat; background-size: cover;">
+<body style="background: url('pics/drafting.jpg'); background-repeat: no-repeat; background-size: cover;">
 
-<div id="contact_page">
+<div id="quote_page">
     
         <div class="float-child" id="location">
                
@@ -27,16 +27,26 @@
 		<div class="float-child contact_form">
 
                         <h1 class="display-4 logo">J<span style="color: #00e6e6">&</span>A Attic Remediation</h1>
-                        <p>We'd love to hear from you!</p>
+                        <p>Get a quote today!</p>
                         <form>
 
                                 <input class="input" type="name" placeholder="Name"><br>
 
                                 <input class="input" type="email" placeholder="Email Address"><br>
 
-                                <input class="input" type="text" placeholder="Subject"><br>
+                                <select class="input" name="service" id="service">
+                                    <option disabled selected>Service Type</option>
+                                    <option>Mold Removal</option>
+                                    <option>Blown-in Insulation</option>
+                                    <option>Ventilation</option>
+                                    <option>Other</option>
+                                </select>
 
-                                <textarea class="input" type="text" placeholder="What can we help you with?"></textarea><br>
+                                <input class="input" type="text" placeholder="If 'Other', please specify"><br>
+
+                                <input class="input" type="text" placeholder="Square Feet"><br>
+
+                            
 
                         <a class="btn btn-info btn-lg button" id="contact_button" href=# role="button">Submit</a>
                         </form>
