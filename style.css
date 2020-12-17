@@ -39,7 +39,7 @@ html, body {
 /* Jumbotron specific formatting */
   
 .jumbotron {
-    background: url("pics/tear-out_1.jpg") no-repeat center center;
+    background: url("pics/tools.jpg") no-repeat center center;
     background-size: cover;
     min-height: 700px;
     font-weight: bold;
@@ -154,7 +154,7 @@ html, body {
 
 
 
-#contact_form {
+.contact_form {
     font-family: 'PT Sans Narrow', sans-serif;
     font-size: 120%;
     color: #152951;
@@ -170,30 +170,46 @@ html, body {
     border-radius: 5px;
 }
 
-#contact_form .logo {
+.contact_form .logo {
     font-size: 170%
 }
 
-#contact_form .input {
+.contact_form .input {
     margin: 10px;
     border: none;
     border-bottom: 1px solid #152951;
     outline: none;
 }
 
-#contact_form textarea {
+.contact_form textarea {
     min-height: 120px;
 }
 
-#contact_form .button {
+.contact_form .button {
         background-color: #152951;
         border-color: #152951;
+        margin: 10px;
 }
 
-#contact_form .button:hover {
+.contact_form .button:hover {
     background-color: #00e6e6;
     border-color: #00e6e6;
     color: #152951;
+}
+
+.contact_form .link {
+    color: #152951;
+}
+
+.contact_form a:hover {
+    color: #00e6e6;
+    text-decoration: none;
+}
+
+
+.help_center_title {
+    font-weight: bold;
+    font-size: 150%;
 }
 
 
