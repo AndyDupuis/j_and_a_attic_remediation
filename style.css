@@ -15,16 +15,15 @@ html, body {
     color: #152951;
   }
 
-#business {
+.dark_section {
     height:80vh;
     width: 100vw;
     padding: 25px;
-    margin: 20px;
+    background-color: #152951;
 }
 
 .section {
     padding: 25px;
-    margin: 20px;
 }
 
 .section_content {
@@ -43,6 +42,7 @@ html, body {
     background-size: cover;
     min-height: 700px;
     font-weight: bold;
+    margin-bottom: 0px;
   }
 
 #jumbotron_content {
@@ -80,10 +80,26 @@ html, body {
     margin-left: 20px;
     padding:20px;
     width: 45vw;
+    background-color: white;
+    border-radius: 5px;
 }
 
 .bold {
     font-weight: bold;
+}
+
+.dark_section_title {
+    color: #00e6e6;
+    font-weight: bold;
+    font-size: 200%;
+    padding: 20px;
+}
+
+.light_section_title {
+    color: #152951;
+    font-weight: bold;
+    font-size: 200%;
+    padding: 20px;
 }
 
 /* ------------------------------------------------------------------------------------------ */
@@ -109,18 +125,21 @@ html, body {
 /* Additional formatting */
 
 #business .has_border {
-    float: left;
-}
-
-#business img {
-    float: right;
-    width: 45vw;
-    margin-right: 20px;
+    margin: auto;
+    margin-top: 50px;
 }
 
 #business .button {
     margin: 15px;
 }
+
+.card img {
+    height: 300px;
+}
+
+.card {
+    box-shadow: 5px 5px 10px;
+} 
 
 #our_team {
     margin-top: 20px;
@@ -212,6 +231,11 @@ html, body {
     font-size: 150%;
 }
 
+#help_center p {
+    color: white;
+    margin-left: 30px;
+    margin-top: 30px;
+}
 
 
   
