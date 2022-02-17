@@ -3,7 +3,7 @@
 
 ### Description 
 
-A website for the company J & A Attic Remediation, based out of HRM. 
+A design example website for the company J & A Attic Remediation, based out of HRM. 
 
 [Currently published here](https://andydupuis.github.io/j_and_a_attic_remediation/)
 
@@ -12,14 +12,15 @@ A website for the company J & A Attic Remediation, based out of HRM.
 ```markdown
 
 # Current: 
-- very basic html/css layout
+- basic example website using Bootstrap and some custom CSS
+- 
 
 
-# In Progress for MVP: 
+# Next Steps: 
+- responsive and mobile friendly
 - functional contact page 
 - functional quote request page
-- responsive and mobile friendly
-- official definitions and owner photos
+- official/reviewed definitions and owner photos 
 - published on their official domain
 
 
